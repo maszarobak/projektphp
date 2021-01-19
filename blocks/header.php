@@ -5,12 +5,13 @@
     <a class="p-2 text-dark" href="about.php">Kontakt</a>
   </nav>
   <?php
-    if((isset($_COOKIE['user'])) && ($_COOKIE['user'] == 'true')):
+    if($_COOKIE['user']==''):
   ?>
-  <a class="btn btn-outline-primary" href="auth.php">Mój profil</a>
+  <a class="btn btn-outline-primary" href="auth.php">Zaloguj się</a>
+  
   <?php
     else:
   ?>
-  <a class="btn btn-outline-primary" href="auth.php">Zaloguj się</a>
+  <a class="btn btn-outline-primary" href="auth.php">Mój profil</a>
   <?php endif; ?>
 </div>  

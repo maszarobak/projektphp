@@ -1,10 +1,5 @@
-<?php include "database.php"; ?>
-<?php
-    //wyciagam wszystkie wpisy
-    $query ="SELECT * FROM  opis";
-    $opis = mysqli_query($con, $query);
 
-?>
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -24,21 +19,20 @@
     ?>
     <div id=opis class="card mb-4 shadow-sm">
         <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Tekst</h4>
+            <h4 class="my-0 font-weight-normal">Paletka</h4>
         </div>
         <div  class="card-body">
             <img src="img/<?php echo ($i+1) ?>.jpg" class="img-thumbnail">
-            <ul class="list-unstyled mt-3 mb-4">
-           
-            <?php while($wiersz = mysqli_fetch_assoc($opis)) : ?>
-                    <li class="opisy"><span class="nazwa">
-                    <?php echo $wiersz["nazwa"] ?> </span>
-                    <?php echo $wiersz["firma"] ?>
-                     <?php echo $wiersz["kraj"] ?>
-                     <?php echo $wiersz["cena"] ?></li>
+            <ul class="list-unstyled mt-3 mb-4">           
+            
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>10 users included</li>
+                    <li>2 GB of storage</li>
+                    <li>Email support</li>
+                    <li>Help center access</li>
                 
                 
-                <?php endwhile; ?>
+               
                 
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
