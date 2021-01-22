@@ -9,6 +9,7 @@
     <title>Autoryzacja</title>
 </head>
 <body>
+    
 <div class="container mt-4">
     <?php
         if($_COOKIE['user']==''):

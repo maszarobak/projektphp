@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -14,31 +12,90 @@
 <div class="container mt-5">
     <h3 class="mb-5">Najlepsze paletki</h3>
     <div class="d-flex flex-wrap">
-   <?php
-   for($i = 0; $i<5; $i++):
-    ?>
-    <div id=opis class="card mb-4 shadow-sm">
-        <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Paletka</h4>
-        </div>
-        <div  class="card-body">
-            <img src="img/<?php echo ($i+1) ?>.jpg" class="img-thumbnail">
-            <ul class="list-unstyled mt-3 mb-4">           
-            
-                <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
-                    <li>Help center access</li>
-                
-                
-               
-                
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
-        </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Paletka Norvina</h4>
+      </div>
+      <div class="card-body">
+      <img src="img/1.jpg" class="img-thumbnail">
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Anastasia Beverli Hills</li>
+          <li>"Norvina""</li>
+          <li>Kraj wyprodukowania: USA</li>
+          <li>250 zł</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
+      </div>
     </div>
-    <?php endfor; ?>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Paletka Subcultura</h4>
+      </div>
+      <div class="card-body">
+      <img src="img/2.jpg" class="img-thumbnail">
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Anastasia Beverli Hills</li>
+          <li>"Subcultura"</li>
+          <li>Kraj wyprodukowania: USA</li>
+          <li>250 zł</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
+      </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Paletka New Nude</h4>
+      </div>
+      <div class="card-body">
+      <img src="img/6.jpg" class="img-thumbnail">
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Huda Beauty</li>
+          <li>"Nude"</li>
+          <li>Kraj wyprodukowania: USA</li>
+          <li>300 zł</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
+      </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Paletka Norvina voll 2</h4>
+      </div>
+      <div class="card-body">
+      <img src="img/4.jpg" class="img-thumbnail">
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Anastasia Beverli Hills</li>
+          <li>"Norvina vol 2"</li>
+          <li>Kraj wyprodukowania: Chiny</li>
+          <li>200 zł</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
+      </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Paletka Make-up Revolution</h4>
+      </div>
+      <div class="card-body">
+      <img src="img/5.jpg" class="img-thumbnail">
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Make-up Revolution</li>
+          <li>"Glitter Paletes"</li>
+          <li>Kraj wyprodukowania: Wielka Brytania</li>
+          <li>30 zł</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Więcej</button>
+      </div>
+    </div>
+    </div>
+
     </div>
 </div>
 <?php require "blocks/footer.php" ?>
